@@ -26,5 +26,6 @@ public class Fifo extends AbstractIntegerBuffer {
 	public int front() {
 		if (this.size()==0) throw new NoSuchElementException();
 		return arr[0];
+		// penis
 	}
 }
